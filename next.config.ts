@@ -1,8 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  trailingSlash: false, // Pode evitar problemas com URLs na Vercel
-  output: "standalone", // Garante que o build funcione corretamente na Vercel
+  output: "standalone", // Garante que a Vercel gere o build corretamente
 };
 
 export default nextConfig;
